@@ -19,17 +19,27 @@ body, html {
 }
 
 img {
-    width: 80%;
-    height: 50%;
+    height: 70vh;
 }
+
+.col-8{
+    display: flex;
+    justify-content: center;
+}
+
 .heading {
     text-align: left;
     color: #83badd;
     font-weight: bolder;
     font-family: 'Montserrat', sans-serif;
 }
+
 .description {
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     color: snow;
+}
+
+.col-4{
+    padding: 50px;
 }
