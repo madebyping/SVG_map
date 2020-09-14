@@ -27,7 +27,6 @@ body{
 	font-family: ping_heading;
 	color : #fcbe2f;
 	font-size: 4rem;
-	text-align: center;
 }
 .content{
 	display: flex;
