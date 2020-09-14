@@ -1,3 +1,8 @@
+@font-face {
+	font-family: ping_heading;
+	src : url("../Rustico-Regular.otf");
+}
+
 body{
 	background-color: #15031e;
 }
@@ -19,7 +24,7 @@ body{
 	display: none;
 }
 .main_heading {
-	font-family: 'Kalam', cursive;
+	font-family: ping_heading;
 	color : #fcbe2f;
 	font-size: 4rem;
 	text-align: center;
