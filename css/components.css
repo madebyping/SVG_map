@@ -7,18 +7,15 @@ body, html {
 }
 body.modal-open {
     height: 100vh;
-    overflow-y: hidden;
   }
 .modal-full {
     min-width: 100%;
     margin-left: 80;
-    overflow: hidden;
 }
 
 .modal-full .modal-content {
     background-color: #15031e;
-    min-height: 98vh;
-    overflow-y: hidden;
+    min-height: 100vh;
 }
 .container-fluid {
     height: 100%;
