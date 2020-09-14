@@ -16,7 +16,12 @@ body{
 	-o-filter: contrast(150%);
 
 }
-
+.main_heading {
+	font-family: 'Kalam', cursive;
+	color : #fcbe2f;
+	font-size: 4rem;
+	text-align: center;
+}
 .content{
 	display: flex;
 	justify-content: center;
