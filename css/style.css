@@ -15,6 +15,9 @@ body{
 	-o-filter: contrast(150%);
 
 }
+::-webkit-scrollbar {
+	display: none;
+}
 .main_heading {
 	font-family: 'Kalam', cursive;
 	color : #fcbe2f;
