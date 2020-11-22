@@ -6,7 +6,9 @@
 body{
 	background-color: #15031e;
 }
-
+a:hover{
+	text-decoration: none;
+}
 .hover-building{
 	cursor: pointer;
 }
