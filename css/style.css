@@ -45,4 +45,6 @@ body{
 
 .modal{
 	font-family: 'Open Sans', sans-serif;
+	background: rgba(21, 21, 21, 0.9);
+    cursor: pointer;
 }
