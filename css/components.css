@@ -21,7 +21,7 @@ body.modal-open {
     height: 100%;
 }
 
-a {
+#gallery_link {
     display: none;
 }
 
