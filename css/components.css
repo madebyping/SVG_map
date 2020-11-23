@@ -21,6 +21,10 @@ body.modal-open {
     height: 100%;
 }
 
+a {
+    display: none;
+}
+
 .row{
     height: 100%;
     display: flex;
