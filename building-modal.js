@@ -101,7 +101,7 @@ function getBuilding(id) {
 
     $("#myModal").modal();
     document.getElementById("gallery_link").style.display = "block";
-    $("#gallery_link").attr("href", "/gallery/himalaya/0.jpg");
+    $("#gallery_link").attr("href", "/gallery/Himalaya/0.jpg");
     document.getElementById("gallery_link").setAttribute("data-gallery", "himalaya-gallery")
   }
   else if(id == "jc") {
@@ -112,7 +112,7 @@ function getBuilding(id) {
 
     $("#myModal").modal();
     document.getElementById("gallery_link").style.display = "block";
-    $("#gallery_link").attr("href", "/gallery/jc/0.jpg");
+    $("#gallery_link").attr("href", "/gallery/JC/0.jpg");
     document.getElementById("gallery_link").setAttribute("data-gallery", "jc-gallery")
   }
   else if(id == "nbh") {
@@ -166,7 +166,7 @@ function getBuilding(id) {
 
     $("#myModal").modal();
     document.getElementById("gallery_link").style.display = "block";
-    $("#gallery_link").attr("href", "/gallery/thub/0.jpg");
+    $("#gallery_link").attr("href", "/gallery/THUB/0.jpg");
     document.getElementById("gallery_link").setAttribute("data-gallery", "thub-gallery")
   }
   else if(id == "vindhya") {
@@ -177,7 +177,7 @@ function getBuilding(id) {
 
     $("#myModal").modal();
     document.getElementById("gallery_link").style.display = "block";
-    $("#gallery_link").attr("href", "/gallery/vindhya/0.jpg");
+    $("#gallery_link").attr("href", "/gallery/Vindhya/0.jpg");
     document.getElementById("gallery_link").setAttribute("data-gallery", "vindhya-gallery")
   }
 }
