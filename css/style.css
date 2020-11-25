@@ -6,19 +6,25 @@
 body{
 	background-color: #15031e;
 }
-
+a:hover{
+	text-decoration: none;
+}
 .hover-building{
 	cursor: pointer;
 }
 .hover-building:hover{
 	cursor: pointer;
-	filter: drop-shadow(15px 15px 10px black);
-	filter: contrast(150%);
 	-webkit-filter: contrast(150%);
 	-moz-filter: contrast(150%);
 	-ms-filter: contrast(150%);
 	-o-filter: contrast(150%);
-
+	filter: drop-shadow(15px 15px 10px black);
+	filter: contrast(150%);
+	-webkit-filter: url(#hover_filter);
+	-moz-filter: url(#hover_filter);
+	-ms-filter: url(#hover_filter);
+	-o-filter: url(#hover_filter);
+	filter: url(#hover_filter);
 }
 ::-webkit-scrollbar {
 	display: none;

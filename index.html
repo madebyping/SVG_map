@@ -9,32 +9,33 @@
 	<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap"
+		rel="stylesheet">
 	<link href="./css/style.css" rel="stylesheet">
 	<link href="./css/components.css" rel="stylesheet">
 
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="./svgs/logo.png"/>
+	<link rel="icon" type="image/png" href="./svgs/logo.png" />
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131791159-3"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131791159-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'UA-131791159-3');
-  </script>
+	</script>
 
 	<script src="building-modal.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 	<script>
-		$(function(){
-		$("#mapSVG").load("map-svg.html");
-	});
+		$(function () {
+			$("#mapSVG").load("map-svg.html");
+		});
 	</script>
 </head>
 
@@ -52,17 +53,19 @@
 			<div class="modal-content">
 				<div class="modal-body">
 					<div class="container-fluid">
-						<button type="button" class="close" data-dismiss="modal" onclick="window.location.reload(false)">&times;</button>
+						<button type="button" class="close" data-dismiss="modal"
+							onclick="window.location.reload(false)">&times;</button>
 						<div class="row">
 							<div class="col-8">
-								<img id = "image_modal">
+								<img id="image_modal">
 							</div>
 							<div class="col-4">
 								<h1 class="heading" id="heading_modal"></h1>
 								<br>
 								<h3 class="description" id="description_modal"></h3>
 
-								<a href="#" data-toggle="lightbox" data-gallery="gallery" class="mt-5" id="gallery_link">
+								<a href="#" data-toggle="lightbox" data-gallery="gallery" class="mt-5"
+									id="gallery_link">
 									<button class="mt-4 btn btn-primary">View Gallery</button>
 								</a>
 							</div>
@@ -78,182 +81,235 @@
 			<div class="col-md-4 content">
 				<div style="margin: 15%">
 					<div class="content-head">
-						<h1 class="main_heading">Ping!</h1>
+						<a href="https://pingiiit.org/" target="_blank">
+							<h1 class="main_heading">Ping!</h1>
+						</a>
 						<h1>Hello World!</h1>
 					</div>
 					<div class="content-desc">
 						This is a look at our home away from home. Like most
-                                                places that hold a place in our heart, these
-                                                buildings contain stories and acquire meaning over
-                                                time. We wish, just like you did, that you would get lost in the Vindhya maze or jump around in the Felicity Ground. Hopefully, this map offers you a peak as to what's coming.
-                         <br><br>
-<em>Hover over the buildings and click on a building to see what it's about </em>
+						places that hold a place in our heart, these
+						buildings contain stories and acquire meaning over
+						time. We wish, just like you did, that you would get lost in the Vindhya maze or jump around in
+						the Felicity Ground. Hopefully, this map offers you a peak as to what's coming.
+						<br><br>
+						<em>Hover over the buildings and click on a building to see what it's about </em>
+						<br><br><br><br>
+						Campus Image Credits: 'Pentaprism'- Photography Club of IIIT-H
 					</div>
 					<br>
 				</div>
 				<!-- partial:index.partial.html -->
-					<div class="container d-none">
-						  <a href="/gallery/Amphi/1.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
-						  </a>
-						  <a href="/gallery/Amphi/2.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
-						  </a>
-						  <a href="/gallery/Amphi/3.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
-						  </a>
-						  <a href="/gallery/Amphi/4.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
-						  </a>
-						  <a href="/gallery/Amphi/5.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
-						  </a>
-						  <a href="/gallery/Amphi/6.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
-						  </a>
-						  <a href="/gallery/Amphi/7.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
-						  </a>
-						  <a href="/gallery/Amphi/8.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
-						  </a>
+				<div class="container d-none">
+					<a href="/gallery/Amphi/1.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Amphi/2.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Amphi/3.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Amphi/4.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Amphi/5.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Amphi/6.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Amphi/7.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Amphi/8.jpg" data-toggle="lightbox" data-gallery="amphi-gallery" class="col-md-4">
+					</a>
 
-						  <a href="/gallery/Bakul/1.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Bakul/2.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Bakul/3.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Bakul/4.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Bakul/5.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Bakul/6.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Bakul/7.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Bakul/8.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Bakul/9.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Bakul/10.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
-							</a>
+					<a href="/gallery/Bakul/1.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Bakul/2.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Bakul/3.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Bakul/4.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Bakul/5.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Bakul/6.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Bakul/7.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Bakul/8.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Bakul/9.jpg" data-toggle="lightbox" data-gallery="bakul-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/Bakul/10.jpg" data-toggle="lightbox" data-gallery="bakul-gallery"
+						class="col-md-4">
+					</a>
 
-							<a href="/gallery/Basketball%20Court/1.jpg" data-toggle="lightbox" data-gallery="bbc-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Basketball%20Court/2.jpg" data-toggle="lightbox" data-gallery="bbc-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Basketball%20Court/3.jpg" data-toggle="lightbox" data-gallery="bbc-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Basketball%20Court/4.jpg" data-toggle="lightbox" data-gallery="bbc-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Basketball%20Court/5.jpg" data-toggle="lightbox" data-gallery="bbc-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Basketball%20Court/6.jpg" data-toggle="lightbox" data-gallery="bbc-gallery" class="col-md-4">
-							</a>
+					<a href="/gallery/Basketball%20Court/1.jpg" data-toggle="lightbox" data-gallery="bbc-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Basketball%20Court/2.jpg" data-toggle="lightbox" data-gallery="bbc-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Basketball%20Court/3.jpg" data-toggle="lightbox" data-gallery="bbc-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Basketball%20Court/4.jpg" data-toggle="lightbox" data-gallery="bbc-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Basketball%20Court/5.jpg" data-toggle="lightbox" data-gallery="bbc-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Basketball%20Court/6.jpg" data-toggle="lightbox" data-gallery="bbc-gallery"
+						class="col-md-4">
+					</a>
 
-							<a href="/gallery/felicityground/1.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/2.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/3.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/4.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/5.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/6.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/7.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/9.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/10.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/11.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/12.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/13.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/14.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/15.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/16.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/17.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/18.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/felicityground/19.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery" class="col-md-4">
-							</a>
+					<a href="/gallery/felicityground/1.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/2.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/3.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/4.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/5.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/6.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/7.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/9.jpg" data-toggle="lightbox" data-gallery="felicityground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/10.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/11.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/12.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/13.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/14.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/15.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/16.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/17.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/18.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/felicityground/19.jpg" data-toggle="lightbox"
+						data-gallery="felicityground-gallery" class="col-md-4">
+					</a>
 
-							<a href="/gallery/footballground/1.jpg" data-toggle="lightbox" data-gallery="footballground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/footballground/2.jpg" data-toggle="lightbox" data-gallery="footballground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/footballground/3.jpg" data-toggle="lightbox" data-gallery="footballground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/footballground/4.jpg" data-toggle="lightbox" data-gallery="footballground-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/footballground/5.jpg" data-toggle="lightbox" data-gallery="footballground-gallery" class="col-md-4">
-							</a>
+					<a href="/gallery/footballground/1.jpg" data-toggle="lightbox" data-gallery="footballground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/footballground/2.jpg" data-toggle="lightbox" data-gallery="footballground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/footballground/3.jpg" data-toggle="lightbox" data-gallery="footballground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/footballground/4.jpg" data-toggle="lightbox" data-gallery="footballground-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/footballground/5.jpg" data-toggle="lightbox" data-gallery="footballground-gallery"
+						class="col-md-4">
+					</a>
 
-							<a href="/gallery/Himalaya/1.jpg" data-toggle="lightbox" data-gallery="Himalaya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Himalaya/2.jpg" data-toggle="lightbox" data-gallery="Himalaya-gallery" class="col-md-4">
-							</a>
+					<a href="/gallery/Himalaya/1.jpg" data-toggle="lightbox" data-gallery="Himalaya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Himalaya/2.jpg" data-toggle="lightbox" data-gallery="Himalaya-gallery"
+						class="col-md-4">
+					</a>
 
-							<a href="/gallery/JC/1.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/JC/2.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/JC/3.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/JC/4.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/JC/5.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/JC/6.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/JC/7.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
-							</a>
+					<a href="/gallery/JC/1.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/JC/2.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/JC/3.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/JC/4.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/JC/5.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/JC/6.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/JC/7.jpg" data-toggle="lightbox" data-gallery="JC-gallery" class="col-md-4">
+					</a>
 
-							<a href="/gallery/nilgiri/1.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/nilgiri/2.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/nilgiri/3.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/nilgiri/4.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/nilgiri/5.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery" class="col-md-4">
-							</a>
+					<a href="/gallery/nilgiri/1.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/nilgiri/2.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/nilgiri/3.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/nilgiri/4.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/nilgiri/5.jpg" data-toggle="lightbox" data-gallery="nilgiri-gallery"
+						class="col-md-4">
+					</a>
 
-							<a href="/gallery/THUB/1.jpg" data-toggle="lightbox" data-gallery="THUB-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/THUB/2.jpg" data-toggle="lightbox" data-gallery="THUB-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/THUB/3.jpg" data-toggle="lightbox" data-gallery="THUB-gallery" class="col-md-4">
-							</a>
+					<a href="/gallery/THUB/1.jpg" data-toggle="lightbox" data-gallery="THUB-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/THUB/2.jpg" data-toggle="lightbox" data-gallery="THUB-gallery" class="col-md-4">
+					</a>
+					<a href="/gallery/THUB/3.jpg" data-toggle="lightbox" data-gallery="THUB-gallery" class="col-md-4">
+					</a>
 
-							<a href="/gallery/Vindhya/1.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/2.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/3.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/4.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/5.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/6.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/7.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/9.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/10.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/11.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-							<a href="/gallery/Vindhya/12.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery" class="col-md-4">
-							</a>
-					  </div>
-  				<!-- partial -->
+					<a href="/gallery/Vindhya/1.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/2.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/3.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/4.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/5.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/6.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/7.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/9.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/10.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/11.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+					<a href="/gallery/Vindhya/12.jpg" data-toggle="lightbox" data-gallery="Vindhya-gallery"
+						class="col-md-4">
+					</a>
+				</div>
+				<!-- partial -->
 			</div>
 			<div class="col-md-8" id="mapSVG">
 
@@ -261,24 +317,24 @@
 		</div> <!-- row -->
 	</div> <!-- container-flex -->
 
-<script type="text/javascript">
-		$(document).on("click", '[data-toggle="lightbox"]', function(event) {
-		  event.preventDefault();
-		  console.log("clicked")
-		  $(this).ekkoLightbox();
+	<script type="text/javascript">
+		$(document).on("click", '[data-toggle="lightbox"]', function (event) {
+			event.preventDefault();
+			console.log("clicked")
+			$(this).ekkoLightbox();
 		});
 
 	</script>
 
 	<script>
-		$(document).ready(function() {
-		//Preloader
-		preloaderFadeOutTime = 500;
-		function hidePreloader() {
-		var preloader = $('.spinner-wrapper');
-		preloader.fadeOut(preloaderFadeOutTime);
-		}
-		hidePreloader();
+		$(document).ready(function () {
+			//Preloader
+			preloaderFadeOutTime = 500;
+			function hidePreloader() {
+				var preloader = $('.spinner-wrapper');
+				preloader.fadeOut(preloaderFadeOutTime);
+			}
+			hidePreloader();
 		});
 	</script>
 
