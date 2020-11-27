@@ -102,7 +102,7 @@ function getBuilding(id) {
     $("#myModal").modal();
     document.getElementById("gallery_link").style.display = "block";
     $("#gallery_link").attr("href", "/gallery/Himalaya/0.jpg");
-    document.getElementById("gallery_link").setAttribute("data-gallery", "himalaya-gallery")
+    document.getElementById("gallery_link").setAttribute("data-gallery", "Himalaya-gallery")
   }
   else if(id == "jc") {
     $("#image_modal").attr("src", "./svgs/jc.svg");
@@ -151,7 +151,7 @@ function getBuilding(id) {
     $("#myModal").modal();
     document.getElementById("gallery_link").style.display = "block";
     $("#gallery_link").attr("href", "/gallery/THUB/0.jpg");
-    document.getElementById("gallery_link").setAttribute("data-gallery", "thub-gallery")
+    document.getElementById("gallery_link").setAttribute("data-gallery", "THUB-gallery")
   }
   else if(id == "quarters") {
     $("#image_modal").attr("src", "./svgs/quarters.svg");
@@ -178,6 +178,6 @@ function getBuilding(id) {
     $("#myModal").modal();
     document.getElementById("gallery_link").style.display = "block";
     $("#gallery_link").attr("href", "/gallery/Vindhya/0.jpg");
-    document.getElementById("gallery_link").setAttribute("data-gallery", "vindhya-gallery")
+    document.getElementById("gallery_link").setAttribute("data-gallery", "Vindhya-gallery")
   }
 }
