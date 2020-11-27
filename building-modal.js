@@ -150,7 +150,7 @@ function getBuilding(id) {
 
     $("#myModal").modal();
     document.getElementById("gallery_link").style.display = "block";
-    $("#gallery_link").attr("href", "/gallery/THUB/0.jpg");
+    $("#gallery_link").attr("href", "/gallery/THUB/2.jpg");
     document.getElementById("gallery_link").setAttribute("data-gallery", "THUB-gallery")
   }
   else if(id == "quarters") {
