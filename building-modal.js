@@ -113,7 +113,7 @@ function getBuilding(id) {
     $("#myModal").modal();
     document.getElementById("gallery_link").style.display = "block";
     $("#gallery_link").attr("href", "/gallery/JC/0.jpg");
-    document.getElementById("gallery_link").setAttribute("data-gallery", "jc-gallery")
+    document.getElementById("gallery_link").setAttribute("data-gallery", "JC-gallery")
   }
   else if(id == "nbh") {
     $("#image_modal").attr("src", "./svgs/nbh.svg");
