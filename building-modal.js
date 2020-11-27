@@ -149,6 +149,9 @@ function getBuilding(id) {
     $("#description_modal").text("T-Hub is the poster building that you'll find on many Facebook profiles. Home to a giant startup incubator, its buzzing with innovation. It's open to students and is a treat for sore eyes. Contains pool tables, vending machines, slides, and more. T-Hub would be the ideal student destination if it weren't for the meaningful work being done there. ");
 
     $("#myModal").modal();
+    document.getElementById("gallery_link").style.display = "block";
+    $("#gallery_link").attr("href", "/gallery/THUB/0.jpg");
+    document.getElementById("gallery_link").setAttribute("data-gallery", "thub-gallery")
   }
   else if(id == "quarters") {
     $("#image_modal").attr("src", "./svgs/quarters.svg");
@@ -165,9 +168,6 @@ function getBuilding(id) {
     $("#description_modal").text("KCIS is home to some of IIIT's biggest labs. It's a powerhouse that specializes in deep learning based research. Students happen to like KCIS because of the air-conditioned rooms and well-kept furniture as well. Adjacent to KCIS is the admin office, for all your logistical needs.");
 
     $("#myModal").modal();
-    document.getElementById("gallery_link").style.display = "block";
-    $("#gallery_link").attr("href", "/gallery/THUB/0.jpg");
-    document.getElementById("gallery_link").setAttribute("data-gallery", "thub-gallery")
   }
   else if(id == "vindhya") {
     $("#image_modal").attr("src", "./svgs/vindhya.svg");
