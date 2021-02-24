@@ -157,7 +157,7 @@ function getBuilding(id) {
     $("#image_modal").attr("src", "./svgs/quarters.svg");
     $("#heading_modal").text("Quarters");
     $("#heading_modal").css("color","#cde5de");
-    $("#description_modal").text("Due to legal reasons, we cannot comment on this - students are not permitted to visit this area. We imagine that they have golden pools and water fountains.");
+    $("#description_modal").text("Due to legal reasons, we cannot comment on this - students are not permitted to visit this area. We imagine that they have golden pools and water fountains. <br/> Hououin katnisseverdeen Kyouma");
 
     $("#myModal").modal();
   }
